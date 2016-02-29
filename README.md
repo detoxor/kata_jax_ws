@@ -4,6 +4,7 @@ Simple java web service SOAP project
 jeste mrkni sem:
 * https://github.com/sgilda/wildfly-quickstart/tree/master/helloworld-ws << ZDROJ
 * http://www.mkyong.com/webservices/jax-ws/jax-ws-hello-world-example/ << ZDROJ
+* http://www.benchresources.net/jax-ws-based-soap-web-service-jargons/ << README
 * https://axis.apache.org/axis2/java/core/docs/jaxws-guide.html << README
 * http://docs.oracle.com/javaee/7/tutorial/jaxws.htm#BNAYL
 * http://docs.oracle.com/javaee/6/tutorial/doc/bnayl.html
