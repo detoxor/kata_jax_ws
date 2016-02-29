@@ -44,9 +44,9 @@ public class ClientArqTest {
 
    @Deployment(testable = false)
    public static WebArchive createDeployment() {
-       WebArchive archive = ShrinkWrap.create(WebArchive.class, APP_NAME + ".war").addPackage(HelloWorldWs.class.getPackage())
+       WebArchive archive = ShrinkWrap.create(WebArchive.class, APP_NAME + ".war")
+    		   .addPackage(HelloWorldWs.class.getPackage())
                .addAsWebInfResource(new File(WEBAPP_SRC, "WEB-INF/web.xml"));
-	archive.addClasses(Client.class, HelloWorldWs.class);
 	return archive;
    }
 
