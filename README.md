@@ -12,3 +12,4 @@ jeste mrkni sem:
 * https://github.com/sgilda/wildfly-archetypes/blob/master/wildfly-javaee7-webapp-ear-archetype/
 * https://github.com/sgilda/wildfly-quickstart/blob/master/hibernate4/
 * https://jax-ws.java.net/articles/handlers_introduction.html
+* http://www.jboss.org/ticket-monster/datapersistence/ MUSTREAD
