@@ -7,7 +7,7 @@ import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
  
 //Service Endpoint Interface
-@WebService
+@WebService(targetNamespace = "http://tomascejka.eu/ws/HelloWorld")
 @SOAPBinding(style = Style.RPC)
 public interface HelloWorldWs 
 {

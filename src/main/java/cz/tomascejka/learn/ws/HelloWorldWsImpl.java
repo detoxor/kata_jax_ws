@@ -5,7 +5,8 @@ import javax.jws.WebService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@WebService(serviceName = "HelloWorldService", portName = "HelloWorld", name = "HelloWorld", endpointInterface="cz.tomascejka.learn.ws.HelloWorldWs")
+@WebService(serviceName = "HelloWorldService", portName = "HelloWorld", name = "HelloWorld", 
+endpointInterface="cz.tomascejka.learn.ws.HelloWorldWs", targetNamespace = "http://tomascejka.eu/ws/HelloWorld")
 public class HelloWorldWsImpl implements HelloWorldWs {
 
 	private static final Logger log = LoggerFactory.getLogger(HelloWorldWsImpl.class);

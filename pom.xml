@@ -10,7 +10,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.se.version>1.8</java.se.version>
 		<wildfly.maven.plugin.version>1.0.2.Final</wildfly.maven.plugin.version>
-		<remote.server.url>http://localhost:8080/</remote.server.url>
 	</properties>
 
 	<profiles>
@@ -20,7 +19,7 @@
 			<!-- This profile will start a new JBoss AS instance, and execute the 
 				test, shutting it down when done -->
 			<!-- Run with: mvn clean test -Parq-managed -->
-			<id>arg-managed</id>
+			<id>arq-managed</id>
 			<dependencies>
 				<dependency>
 					<groupId>org.wildfly</groupId>
@@ -33,7 +32,7 @@
 				<plugins>
 					<plugin>
 						<artifactId>maven-surefire-plugin</artifactId>
-						<version>${version.surefire.plugin}</version>
+						<version>2.19.1</version>
 						<configuration>
 							<excludes>
 								<exclude>**/ClientTest.java</exclude>
