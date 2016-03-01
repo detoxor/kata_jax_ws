@@ -54,6 +54,7 @@ Simple java web service SOAP project
 
 
 ## JAX-WS Security
+* https://www.owasp.org/index.php/Web_Services
 * https://www-01.ibm.com/support/knowledgecenter/SS7JFU_8.5.5/com.ibm.websphere.nd.doc/ae/cwbs_wss_api.html
 * http://www.capcourse.com/News/20090818.html
 * http://www.javaworld.com/article/2073287/soa/secure-web-services.html?page=2
