@@ -11,6 +11,7 @@ Simple java web service SOAP project
 
 ## Testing
 * __http://www.slideshare.net/reza_rahman/javaee-testing__ << HOT
+* __http://in.relation.to/arquillian/__ << HOT
 * http://www.paluch.biz/blog/53-unit-testing-of-web-services-with-junit-soap-services.html
 * https://www.javacodegeeks.com/2014/06/java-ee7-and-maven-project-for-newbies-part-5-unit-testing-using-arquillian-wildfly-8.html << WILDFLY && ARQUILLIAN WS
 * http://antoniogoncalves.org/2012/10/24/no-you-dont-need-to-mock-your-soap-web-service-to-test-it/ << PIS SOAP Servise jednoduche a muze je testovat jako pojo
@@ -20,6 +21,7 @@ Simple java web service SOAP project
 * https://thomassundberg.wordpress.com/2011/11/16/testing-a-web-service-with-soapui-junit-maven-and-cucumber/
 * https://wiki.kuali.org/display/KULRICE/Unit+Testing+JAX-WS+Services
 * http://ojitha.blogspot.cz/2012/01/saaj-unit-testing-client-for-jax-ws-web.html
+* http://milestonenext.blogspot.cz/2012/12/tutorial-ejb3-integration-test-with_17.html
 
 ## Examples
 * https://github.com/sgilda/wildfly-quickstart/tree/master/helloworld-ws << ZDROJ
@@ -55,6 +57,7 @@ Simple java web service SOAP project
 * https://www-01.ibm.com/support/knowledgecenter/SS7JFU_8.5.5/com.ibm.websphere.nd.doc/ae/cwbs_wss_api.html
 * http://www.capcourse.com/News/20090818.html
 * http://www.javaworld.com/article/2073287/soa/secure-web-services.html?page=2
+* http://www.scriptscoop.net/t/a24e5c72cfa9/wildfly-ws-security-exception-of-soap-web-services.html
 
 
 ## SOAP vs LOGICAL handlers
