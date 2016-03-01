@@ -41,5 +41,5 @@ JAX-WS Security
 * http://www.javaworld.com/article/2073287/soa/secure-web-services.html?page=2
 * 
 
-SOAP vs LOGICAL handlers
+## SOAP vs LOGICAL handlers
 "JAX-WS supports two types of SOAP message handlers: SOAP handlers and logical handlers. SOAP handlers can access the entire SOAP message, including the message headers and body. Logical handlers can access the payload of the message only, and cannot change any protocol-specific information (like headers) in a message."
